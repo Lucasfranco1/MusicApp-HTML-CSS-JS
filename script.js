@@ -1,8 +1,10 @@
+// Generamos las variables
 let now_playing = document.querySelector('.now-playing');
 let track_art = document.querySelector('.track-art');
 let track_name = document.querySelector('.track-name');
 let track_artist = document.querySelector('.track-artist');
 
+// Generamos la variables para los btn
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
 let prev_btn = document.querySelector('.prev-track');
@@ -20,6 +22,7 @@ let isPlaying = false;
 let isRandom = false;
 let updateTimer;
 
+// Agregamos la playlist
 const music_list=[
     {
         img: "img/mascarazorro.jpg",
